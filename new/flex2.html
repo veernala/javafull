@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex2</title>
+    <style>
+        .con{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border: 1px solid black;
+        }
+        .con div{
+            padding: 20px;
+            background-color: lightblue;
+        }
+        .navbar
+        {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
+        }
+        .navbar a{
+            color: white;
+            text-transform: none;
+        }
+        .con1
+        {
+            display: flex;
+        }
+        .con1 div
+        {
+            padding: 20px;
+            background-color: aquamarine;
+            margin: 5px;
+        }
+        .box2
+        {
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="">home</a>
+        <a href="">about</a>
+        <a href="">service</a>
+        <a href="">about</a>
+
+
+
+    </nav>
+    <div class="con">
+        <div>item1</div>
+    <div>item2</div>
+    <div>item4</div>
+    </div>
+
+
+    <div class="con1">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+
+
+
+    </div>
+</body>
+</html>

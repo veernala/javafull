@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>paytm</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      body {
+        margin: 5%;
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0.5% 2%;
+        position: sticky;
+        top: 0px;
+        background-color: rgb(223, 237, 251);
+      }
+      .navbar a {
+        color: black;
+        font-size: 1.1rem;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      .navbar .Signin {
+        background-color: #00baf2;
+        color: white;
+        width: 8%;
+        padding: 8px 0px 8px 5px;
+        border-radius: 50%;
+        text-align: center;
+      }
+      .navbar .fa-user {
+        background-color: #002970;
+        border-radius: 50%;
+        padding: 5%;
+      }
+      .Signin:hover {
+        background-color: #002970;
+      }
+      .Signin:hover .fa-user {
+        background-color: #00baf2;
+      }
+      .recharge{
+        background-color: #00baf2;
+        color: white;
+        padding: 20px 5px;
+        font-family: sans-serif;
+      }
+      .recharge h1{
+        font-size: 2rem;
+        
+      }
+      .recharge-links{
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 5% 0% 1%;
+
+      }
+      .rechage a{
+        color: white;
+      }
+      .recharge-links img{
+        width: 60px;
+      }
+      .payments-container{
+        display:flex;
+        justify-content: space-between;
+        padding: 7% 0% 3% 5px;
+        font-family: "Roboto",sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: auto;
+      }
+      .payments{
+        width: 40%;
+      }
+      .payments img{
+        width: 10%;
+      }
+      .payments h1{
+        font-size: 3rem;
+      }
+      .payments p{
+        font-size: 1.4rem;
+      }
+      .payments a{
+        background-color: black;
+        color: white;
+        border-radius: 25px;
+      }
+      .payments a:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+      }
+      .payments i{
+        margin-left: 9px ;
+      }
+      .payments-container .upi-payment{
+        width:40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav class="navbar">
+        <a href="">
+          <img
+            src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo.svg"
+            alt=""
+          />
+        </a>
+        <a href="">paytm for consumers</a>
+        <a href="">paytm for business</a>
+        <a href="">inverstor Relations</a>
+        <a href="">Company</a>
+        <a href="">Careers</a>
+        <a class="Signin" href="">
+          <span>Signin</span>
+          <i class="fa-solid fa-user"></i>
+        </a>
+      </nav>
+    </div>
+    <section class="recharge">
+      <h1>Recharge and Pay Bills</h1>
+      <div class="recharge-links">
+        <a href="">
+          <img
+            src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png"
+            alt=""
+          />
+          <p>
+            Recharge <br />
+            Prepaid<br />Mobile
+          </p>
+        </a>
+        <a href="">
+          <img
+            src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png"
+            alt=""
+          />
+          <p>Pay<br />Electricity<br />Bills</p>
+        </a>
+        <a href="">
+          <img
+            src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png"
+            alt=""
+          />
+          <p>Recharge<br />DTH<br />Connection</p>
+        </a>
+        <a href="">
+          <img
+            src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png"
+            alt=""
+          />
+          <p>Book<br />Gas<br />Cylinder</p>
+        </a>
+        <a href="">
+          <img
+            src="https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png"
+            alt=""
+          />
+          <p>Pay<br />Broadband & <br />Landline</p>
+        </a>
+        <a href="">
+          <img
+            src="https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png"
+            alt=""
+          />
+          <p>Pay<br />Education<br />Fee</p>
+        </a>
+        <a href="">
+          <img
+            src="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png"
+            alt=""
+          />
+          <p>All<br />Payment<br />Services</p>
+        </a>
+      </div>
+    </section>
+    <section>
+        <div class="payments-container">
+            <div class="payments">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view/310944/1697527183231.png" alt=""/>
+                    <h1>India's Most-loved Payments App</h1>
+                    <p>Recharge & Pay bills,book flights & movie tickets, invest in stocks & mutual funds, and do a lot mor.</p>
+                    <a href=""> &nbsp; &nbsp; Download Paytm 
+                        <i class="fa-brands fa-apple"></i>
+                        <i class="fa-brands fa-google-pay"></i>
+                    </a>
+            </div>
+            <img class="upi-payment" src="https://assetscdn1.paytm.com/images/catalog/view_item/850762/1715933362922.png" alt="">
+        </div>
+    </section>
+  </body>
+</html>

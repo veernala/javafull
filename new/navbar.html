@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        nav{
+            background: #333;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .navbar{
+            list-style: none;
+        }
+        .navbar li{
+            display: inline;
+            margin: 0 15px;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            transition: color o.3s ease;
+        }
+        .navbar a: :hover
+        {
+            color: #f39c12;
+        }
+       section
+       {
+        padding: 50px;
+        text-align: center;
+       }
+       .about-section
+       {
+        background-color: #fff;
+       }
+       .skills-section,.project-section,.contact-section
+       {
+        background-color: #f4f4f4;
+       }
+       .skills-grid
+       {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        m
+       }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#about">about</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#project">project</a></li>
+            <li><a href="#contrct">contect</a></li>
+
+
+
+
+        </ul>
+    </nav>
+    <section id="about" class="about-section">
+        <h1>about me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste quia consectetur quam accusantium aliquid minus non omnis placeat iure ea commodi magnam asperiores, temporibus modi deleniti facere consequuntur. Doloremque?</p>
+
+    </section>
+    <section id="skill" class="skills-section">
+        <h2>my skills</h2>
+        <div class="skills-grid">
+            <div class="skill">html</div>
+            <div class="skill">css</div>
+            <div class="skill">js</div>
+            <div class="skill">php</div>
+
+        </div>
+
+    </section>
+</section>
+<section id="project" class="project-section">
+    <h2>project</h2>
+    <div class="project-grid">
+        <div class="project-card">project1</div>
+        <div class="project-card">project2</div>
+        <div class="project-card">project3</div>
+        <div class="project-card">project4</div>
+
+    </div>
+
+</section>
+<section id="contect" class="contact-section">
+    <h2>cotect</h2>
+<form class="contact-form" action="" method="post">
+<label for="name">name:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">email:</label>
+<input type="text" id="email" name="_replyto" required>
+
+<label for="message">message:</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+<button type="submit">send messagre</button>
+</form>
+    </section>
+</body>
+</html>
